@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+.inputBox{
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.inputBox input{
+  flex:1;
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.btn{
+  color: white;
+  background-color: rgb(73, 164, 250);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
